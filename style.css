@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    padding: 20px 80px;
+}
+
+.nav-bar {
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 48px;
+    weight: 232px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.aboutme a {
+     height: 36px;
+    weight: 420px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.aboutme a:hover {
+    color: #007BFF; /* blue on hover */
+}
