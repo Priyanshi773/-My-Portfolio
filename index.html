@@ -1,63 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" >
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-      <div class="nav-bar">
-        <div class="logo">
-             Priyanshi Saini 
-        </div>
-        <div class="aboutme" >
-            <a href="#w" >About</a>
-            <a href="#w" >Skills</a>
-            <a href="#w" >Project</a>
-            <a href="#w" >Contact</a>
-        </div>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="nav-bar">
+      <div class="logo">Priyanshi Saini</div>
+      <div class="aboutme">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <div class="profile" >
-        <div class="img">
-            <img src="photo.jpg" >
-        </div>
-        <div class="info">
-            <p class="nameinfo1" > Hello, I'm </p>
-             <p class="nameinfo2" > Priyanshi Saini</p>
-            <p class="nameinfo3">Computer Science student | <br>
-             Java & C++ enthusiast |<br>
-             Front-End Web  Explorer Building skills |<br>
-             Breaking comfort zones Dreaming big. 🌈 
-             <div class="links">
-                <br>
-             <a href="https://github.com/" >Github</a>          
-            <a href="https://www.linkedin.com/in/priyanshi-saini-892b85290/" >linkdin</a>
-             </div>
-            </p>
-        </div>
-        </div>
+  <!-- Profile Section -->
+  <section class="profile" id="about">
+    <div class="img">
+      <img src="photo.jpg" alt="Priyanshi Saini photo" />
+    </div>
+    <div class="info">
+      <p class="nameinfo1">Hello, I'm</p>
+      <p class="nameinfo2">Priyanshi Saini</p>
+      <p class="nameinfo3">
+        Computer Science Student <br />
+        Java & C++ Enthusiast <br />
+        Front-End Web Explorer | Dreaming Big 🌈
+      </p>
+      <div class="links">
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/priyanshi-saini-892b85290/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
 
-        <section id="skills" class="skills-modern">
-  <h2>🚀 My Skills</h2>
-  <div class="skills-grid">
-    <div class="skill-card">💻 C++</div>
-    <div class="skill-card">☕ Java</div>
-    <div class="skill-card">🌐 HTML</div>
-    <div class="skill-card">🎨 CSS</div>
-    <div class="skill-card">⚡ JavaScript</div>
-    <div class="skill-card">🛠 Git & GitHub</div>
-    <div class="skill-card">🔍 OOP</div>
-    <div class="skill-card">📊 DSA</div>
-    <div class="skill-card">🧰 Bootstrap</div>
-    <div class="skill-card">👩‍💻 VS Code</div>
-  </div>
-</section>
+  <!-- Skills Section -->
+  <section id="skills" class="skills-modern">
+    <h2>🚀 My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">💻 C++</div>
+      <div class="skill-card">☕ Java</div>
+      <div class="skill-card">🌐 HTML</div>
+      <div class="skill-card">🎨 CSS</div>
+      <div class="skill-card">⚡ JavaScript</div>
+      <div class="skill-card">🛠 Git & GitHub</div>
+      <div class="skill-card">🔍 OOP</div>
+      <div class="skill-card">📊 DSA</div>
+      <div class="skill-card">🧰 Bootstrap</div>
+      <div class="skill-card">👩‍💻 VS Code</div>
+    </div>
+  </section>
 
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 style="text-align:center;">📁 Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio to showcase my skills and projects.</p>
+      </div>
+      <div class="project-card">
+        <h3>Amazon Clone</h3> 
+        <p>A noraml homepage of a Amazon website using Html and CSS.</p>
+      </div>
+      <!-- Add more project cards here -->
+    </div>
+  </section>
 
-        </div>
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact-container">
+      <h2>📞 Contact Me</h2>
+      <p>Feel free to reach out for collaborations or just a friendly hello 👋</p>
+
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <p><i class="fa fa-envelope"></i> sainipriyanshi267@gmail.com</p>
+        <p><i class="fa fa-phone"></i> +91-7014252203</p>
+        <p><i class="fa fa-map-marker-alt"></i> India</p>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
